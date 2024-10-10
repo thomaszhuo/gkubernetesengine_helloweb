@@ -1,0 +1,51 @@
+[Info  - 2:59:12 PM] 2024/10/10 14:59:12 Created View (#1)
+	directory=/home/student_02_439769e97d04
+	view_type="AdHoc"
+	root_dir="file:///home/student_02_439769e97d04"
+	go_version="go version go1.23.2 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/student_02_439769e97d04/.cache/go-build GOMODCACHE:/home/student_02_439769e97d04/gopath/pkg/mod GOPATH:/home/student_02_439769e97d04/gopath:/google/gopath GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GoVersion:23 GoVersionOutput:go version go1.23.2 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 2:59:12 PM] 2024/10/10 14:59:12 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/student_02_439769e97d04
+	query=[./ builtin]
+	packages=2
+	duration=189.706465ms
+
+[Info  - 2:59:12 PM] 2024/10/10 14:59:12 Created View (#2)
+	directory=/home/student_02_439769e97d04
+	view_type="AdHoc"
+	root_dir="file:///home/student_02_439769e97d04/hello-app"
+	go_version="go version go1.23.2 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/student_02_439769e97d04/.cache/go-build GOMODCACHE:/home/student_02_439769e97d04/gopath/pkg/mod GOPATH:/home/student_02_439769e97d04/gopath:/google/gopath GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GoVersion:23 GoVersionOutput:go version go1.23.2 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 2:59:18 PM] 2024/10/10 14:59:18 go/packages.Load #2
+	view_id="2"
+	snapshot=0
+	directory=/home/student_02_439769e97d04
+	query=[./ builtin]
+	packages=2
+	duration=6.402778725s
+
+[Info  - 2:59:42 PM] 2024/10/10 14:59:42 background imports cache refresh starting
+
+[Info  - 2:59:42 PM] 2024/10/10 14:59:42 background refresh finished after 7.034906ms
+
+[Info  - 2:59:42 PM] 2024/10/10 14:59:42 background imports cache refresh starting
+
+[Info  - 2:59:42 PM] 2024/10/10 14:59:42 background refresh finished after 5.977379ms
+
+[Info  - 3:14:45 PM] 2024/10/10 15:14:45 background imports cache refresh starting
+
+[Info  - 3:14:45 PM] 2024/10/10 15:14:45 background refresh finished after 215.078µs
+
+[Info  - 3:22:42 PM] 2024/10/10 15:22:42 Shutdown session
+	shutdown_session=1
+

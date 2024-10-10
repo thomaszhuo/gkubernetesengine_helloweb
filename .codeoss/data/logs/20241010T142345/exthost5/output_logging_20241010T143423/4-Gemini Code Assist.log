@@ -1,0 +1,109 @@
+I1010 14:34:54.813748    2576 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I1010 14:34:54.813802    2576 serve.go:44] Command line: ["/home/student_02_439769e97d04/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1010 14:34:54.821459    2576 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I1010 14:34:54.950098    2576 configuration.go:171] product updateChannel will be used
+I1010 14:34:54.950156    2576 configuration.go:568] language thresholds: map[]
+I1010 14:34:54.950179    2576 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I1010 14:34:54.950203    2576 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00136b0c9 StopSequences:map[] DataFilePromptLines:0}
+I1010 14:34:54.950245    2576 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00136b119 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1010 14:34:54.950422    2576 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1010 14:34:54.950441    2576 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1010 14:34:54.950476    2576 configuration.go:265] Configured settings for canCancelRequests: true
+I1010 14:34:54.950488    2576 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+[Error - 2:34:58 PM] Server process exited with code 0.
+I1010 14:34:59.049130    2596 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I1010 14:34:59.049173    2596 serve.go:44] Command line: ["/home/student_02_439769e97d04/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1010 14:34:59.051091    2596 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I1010 14:34:59.128596    2596 configuration.go:171] product updateChannel will be used
+I1010 14:34:59.128643    2596 configuration.go:568] language thresholds: map[]
+I1010 14:34:59.128664    2596 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I1010 14:34:59.128685    2596 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000bca639 StopSequences:map[] DataFilePromptLines:0}
+I1010 14:34:59.128725    2596 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000bca689 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1010 14:34:59.128880    2596 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1010 14:34:59.128893    2596 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1010 14:34:59.129348    2596 configuration.go:265] Configured settings for canCancelRequests: true
+I1010 14:34:59.129369    2596 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+[Error - 2:35:03 PM] Server process exited with code 0.
+I1010 14:35:03.382520    2617 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I1010 14:35:03.382563    2617 serve.go:44] Command line: ["/home/student_02_439769e97d04/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1010 14:35:03.384434    2617 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I1010 14:35:03.676743    2617 configuration.go:171] product updateChannel will be used
+I1010 14:35:03.676785    2617 configuration.go:568] language thresholds: map[]
+I1010 14:35:03.676805    2617 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I1010 14:35:03.676828    2617 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000e2c259 StopSequences:map[] DataFilePromptLines:0}
+I1010 14:35:03.676865    2617 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000e2c2a9 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1010 14:35:03.677038    2617 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1010 14:35:03.677054    2617 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1010 14:35:03.677090    2617 configuration.go:265] Configured settings for canCancelRequests: true
+I1010 14:35:03.677100    2617 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+W1010 14:35:26.344445    2617 server.go:549] unknown method "$/setTrace"
+I1010 14:35:26.386450    2617 configuration.go:171] product updateChannel will be used
+I1010 14:35:26.386498    2617 configuration.go:568] language thresholds: map[]
+I1010 14:35:26.386521    2617 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I1010 14:35:26.386546    2617 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000d3c459 StopSequences:map[] DataFilePromptLines:0}
+I1010 14:35:26.386585    2617 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000d3c4a9 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1010 14:35:26.386628    2617 configuration.go:251] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1010 14:35:26.386642    2617 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1010 14:35:26.386686    2617 configuration.go:265] Configured settings for canCancelRequests: true
+I1010 14:35:26.386697    2617 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I1010 14:35:57.316236    2617 handler.go:142] cancel was requested for: 12, needs to be canceled: false
+I1010 14:35:57.316255    2617 handler.go:146] cancel requested for 12 but not found
+I1010 14:35:57.791143    2617 handler.go:142] cancel was requested for: 13, needs to be canceled: false
+I1010 14:35:57.791164    2617 handler.go:146] cancel requested for 13 but not found
+I1010 14:36:01.453257    2617 handler.go:142] cancel was requested for: 16, needs to be canceled: false
+I1010 14:36:01.453273    2617 handler.go:146] cancel requested for 16 but not found
+I1010 14:36:01.786576    2617 handler.go:142] cancel was requested for: 17, needs to be canceled: false
+I1010 14:36:01.786592    2617 handler.go:146] cancel requested for 17 but not found
+I1010 14:36:03.683663    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1010 14:37:03.683672    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1010 14:38:03.683775    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1010 14:38:19.247304    2617 handler.go:142] cancel was requested for: 45, needs to be canceled: true
+I1010 14:38:19.247357    2617 handler.go:129] req #45 skipped: context canceled
+E1010 14:38:26.554882    2617 retention.go:588] Failed to get offsets at range due to: end offset: invalid column number
+W1010 14:38:26.554978    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 22} {37 27}}, error: invalid column number
+W1010 14:38:27.627905    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 22} {37 27}}, error: invalid column number
+E1010 14:38:27.628038    2617 retention.go:588] Failed to get offsets at range due to: end offset: invalid column number
+W1010 14:38:27.628063    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 17} {37 22}}, error: invalid column number
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":37,"character":17}, triggerKind=1
+Completion Provider - completion # 0 - Completion result obtained from language client
+W1010 14:38:28.094989    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 17} {37 22}}, error: invalid column number
+E1010 14:38:28.095102    2617 retention.go:588] Failed to get offsets at range due to: end offset: invalid column number
+W1010 14:38:28.095126    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 16} {37 21}}, error: invalid column number
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":37,"character":16}, triggerKind=1
+Completion Provider - completion # 1 - Completion result obtained from language client
+W1010 14:38:28.319195    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 16} {37 21}}, error: invalid column number
+E1010 14:38:28.319461    2617 retention.go:588] Failed to get offsets at range due to: end offset: invalid column number
+W1010 14:38:28.319528    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 16} {37 22}}, error: invalid column number
+Completion Provider - completion # 1 - Typed over previous completion
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":37,"character":17}, triggerKind=1
+Completion Provider - completion # 2 - Completion result obtained from language client
+Completion Provider - completion # 2 - Typed over previous completion
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":37,"character":17}, triggerKind=1
+Completion Provider - completion # 3 - Completion result obtained from language client
+W1010 14:38:28.590586    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 16} {37 22}}, error: invalid column number
+E1010 14:38:28.590710    2617 retention.go:588] Failed to get offsets at range due to: end offset: invalid column number
+W1010 14:38:28.590735    2617 retention.go:177] Could not get offsets for range in document. range: &{{37 16} {37 28}}, error: invalid column number
+Completion Provider - completion # 3 - Typed over previous completion
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":37,"character":23}, triggerKind=1
+Completion Provider - completion # 4 - Completion result obtained from language client
+I1010 14:39:03.683285    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1010 14:39:07.124440    2617 handler.go:142] cancel was requested for: 70, needs to be canceled: false
+I1010 14:39:07.124459    2617 handler.go:146] cancel requested for 70 but not found
+W1010 14:39:21.016211    2617 document.go:231] Error computing chars added only: getting byte offset for end of change range: invalid column number
+I1010 14:39:21.018003    2617 handler.go:142] cancel was requested for: 84, needs to be canceled: false
+I1010 14:39:21.018021    2617 handler.go:146] cancel requested for 84 but not found
+I1010 14:40:03.684066    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1010 14:45:03.683258    2617 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric
+I1010 14:58:03.684093    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":48,"character":26}, triggerKind=1
+Completion Provider - completion # 5 - Completion result obtained from language client
+Completion Provider - completion # 5 - Typed over previous completion
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":48,"character":27}, triggerKind=1
+Completion Provider - completion # 6 - Completion result obtained from language client
+I1010 15:00:03.683959    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1010 15:05:03.683242    2617 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric
+I1010 15:09:03.683858    2617 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1010 15:15:03.684079    2617 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric

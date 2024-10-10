@@ -1,0 +1,4 @@
+2024-10-10 14:59:23.094 [info] Running checks...
+2024-10-10 14:59:23.094 [info] Starting linting the current package at /home/student_02_439769e97d04/hello-app
+2024-10-10 14:59:23.603 [info] /home/student_02_439769e97d04/hello-app>Finished running tool: /google/gopath/bin/staticcheck
+2024-10-10 14:59:23.603 [info] 
